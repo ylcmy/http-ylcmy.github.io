@@ -3033,7 +3033,6 @@ blockquote footer cite:before {
 }
 #footer {
   position: relative;
-  background: #49b1f5;
   background-attachment: local;
   background-position: bottom;
   -webkit-background-size: cover;
@@ -3042,22 +3041,13 @@ blockquote footer cite:before {
 }
 #footer-wrap {
   position: relative;
-  padding: 2rem 1rem;
+  padding: 1.2rem 1rem 1.4rem;
   color: var(--light-grey);
   text-align: center;
-}
-#footer-wrap a {
-  color: var(--light-grey);
-}
-#footer-wrap a:hover {
-  text-decoration: underline;
-}
-#footer-wrap .footer-separator {
-  margin: 0 0.2rem;
-}
-#footer-wrap .icp-icon {
-  padding: 0 4px;
-  vertical-align: text-bottom;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 #page-header {
   position: relative;
